@@ -5,10 +5,10 @@ class NavBar extends React.Component {
 
         render() {
             return (
-                <nav className="navbar navbar-light bg-light">
+                <nav className="navbar">
                     <a className="navbar-brand" href="#">
-                    <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" />
-                    Bootstrap
+                    <img src= {require("./male-reader.svg")} className="nav-avtar" width="30" height="30" />
+                    
                      </a>
                 </nav>
             )

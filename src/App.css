@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+.navbar {
+  background-color: #086999;
+}
+
+.nav-avtar {
+  float: right;
+}
+
 .container {
   border: 4px solid #ffffff;
   margin-top: auto;
@@ -19,10 +27,27 @@ body {
 .card {
   display: inline-block;
   margin-bottom: 35px;
+  height: 250px;
 }
 
-.card-header {
-  background-color: #1f4068;
+.card-img {
+  
+  height: 248px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #c92b08;
+}
+
+.btn:hover {
+  background-color: #bf5b0a;
   color: #ffffff;
 }
 
