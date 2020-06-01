@@ -12,7 +12,7 @@ class App extends React.Component {
     }
 
     componentDidMount () {
-      axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a677140b2c3e45c2a9136976595d1941`)
+      axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=`)
         
       .then(out => {
         const news = out.data.articles;
