@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 4px solid #ffffff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.center-body {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 960px;
+  align-content: center;
+  
+}
+
+.card {
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+.card-header {
+  background-color: #1f4068;
+  color: #ffffff;
+}
+
+.jumbotron {
+
+  height: 350px;
+
+  color: #ffffff;
+  font-size: 5rem;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(31deg, #5ebcf5, #1585c8, #0430f1);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 57%}
+  50%{background-position:100% 44%}
+  100%{background-position:0% 57%}
+}
